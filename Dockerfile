@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.104.1
+FROM ghcr.io/n8n-io/n8n:branch-account-for-subpath-when-serving-configjs
 
 ARG NGINX_ALLOWED_IP=172.30.32.2
 ENV NGINX_ALLOWED_IP=${NGINX_ALLOWED_IP}

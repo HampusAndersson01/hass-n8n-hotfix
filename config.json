@@ -14,7 +14,6 @@
     "n8n/.n8n/crash.journal",
     "supervisord.log*"
   ],
-  "image": "ghcr.io/n8n-io/n8n:branch-account-for-subpath-when-serving-configjs",
   "startup": "application",
   "boot": "auto",
   "icon": "icon.png",
